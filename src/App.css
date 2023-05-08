@@ -26,7 +26,6 @@ textarea:focus{
   box-shadow: 0px 0px 5px 0px #e69350;
 }
 h1{
-  margin-top: 50px;
   color: rgb(141, 66, 66);
   font-weight: 700;
   font-size: 50px;
@@ -70,5 +69,8 @@ p{
   }
   h1,h3{
     font-size: 30px;
+  }
+  h1{
+    margin-top: 50px;
   }
 }
