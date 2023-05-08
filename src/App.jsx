@@ -27,6 +27,9 @@ const handleOnChange = (event)=>{
      <div className="text-summary">
          <h3>Your text Summary</h3>
          <p>{text.split(" ").length} words and {text.length} character</p>
+          <p>{0.008 * text.split(" ").length} Minutes read.</p>
+            <h3>Preview</h3>
+            <p>{text}</p>
      </div>
     </div>
   )
