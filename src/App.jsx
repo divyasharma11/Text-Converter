@@ -11,6 +11,10 @@ function App() {
     let newText = text.toLowerCase();
     setText(newText);
   }
+  const clearText=()=>{
+    let newText = "";
+    setText(newText);
+  }
 const handleOnChange = (event)=>{
   setText(event.target.value);
 }
@@ -23,6 +27,7 @@ const handleOnChange = (event)=>{
      <div className="convert-btn">
      <button className='btn' onClick={changeToUpperCase}>Change to UpperCase</button>
      <button className='btn'  onClick={changeToLowerCase}>Change to LowerCase</button>
+     <button className='btn'  onClick={clearText}>Clear text</button>
      </div>
      <div className="text-summary">
          <h3>Your text Summary</h3>
