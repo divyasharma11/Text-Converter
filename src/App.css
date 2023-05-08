@@ -28,11 +28,11 @@ textarea:focus{
 h1{
   color: rgb(141, 66, 66);
   font-weight: 700;
-  font-size: 35px;
+  font-size: 50px;
 }
 h3{
   color:rgb(141, 66, 66);
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 400;
 }
 p{
@@ -66,5 +66,8 @@ p{
   .convert-btn{
     display: flex;
     flex-direction: column;
+  }
+  h1,h3{
+    font-size: 30px;
   }
 }
