@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
-  const [text, setText] = useState("inter text here");
+  const [text, setText] = useState("");
   const changeToUpperCase=()=>{
     let newText = text.toUpperCase();
     setText(newText);
