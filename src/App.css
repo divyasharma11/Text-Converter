@@ -26,9 +26,19 @@ textarea:focus{
   box-shadow: 0px 0px 5px 0px #e69350;
 }
 h1{
-  color: rgb(197, 63, 108);
+  color: rgb(141, 66, 66);
   font-weight: 700;
-  font-size: 40px;
+  font-size: 50px;
+}
+h3{
+  color:rgb(141, 66, 66);
+  font-size: 30px;
+  font-weight: 400;
+}
+p{
+  color: rgb(143, 104, 104);
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .btn{

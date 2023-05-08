@@ -24,7 +24,10 @@ const handleOnChange = (event)=>{
      <button className='btn' onClick={changeToUpperCase}>Change to UpperCase</button>
      <button className='btn'  onClick={changeToLowerCase}>Change to LowerCase</button>
      </div>
-    
+     <div className="text-summary">
+         <h3>Your text Summary</h3>
+         <p>{text.split(" ").length} words and {text.length} character</p>
+     </div>
     </div>
   )
 }
