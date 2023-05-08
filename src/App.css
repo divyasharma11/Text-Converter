@@ -18,6 +18,7 @@
 
 textarea{
   border: 2px solid #dd7017 ;
+  
 }
 textarea:focus{
   border-color: #dd7017;
@@ -46,6 +47,7 @@ h1{
   }
   #text{
     width: 300px;
+    margin: 20px;
   }
   .container{
   
