@@ -19,12 +19,12 @@ const handleOnChange = (event)=>{
      <h1>Text-Converter</h1>
      <div className="container">
       <textarea value={text}  onChange={handleOnChange} cols="50" rows="10"></textarea>
-     
+      </div>
      <div className="convert-btn">
      <button className='btn' onClick={changeToUpperCase}>Change to UpperCase</button>
      <button className='btn'  onClick={changeToLowerCase}>Change to LowerCase</button>
      </div>
-     </div>
+    
     </div>
   )
 }
